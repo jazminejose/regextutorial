@@ -23,7 +23,7 @@ A tutorial explaining regular expressions.
 
 Anchors do match any character but match a position before or after characters. 
 
-`^` - caret anchor matches the beginning of the text
+`^` - caret anchor matches the beginning of the text <br>
 `$` - dollar anchor matches the end of the text
 
 ### Quantifiers
