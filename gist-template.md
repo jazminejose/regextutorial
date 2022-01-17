@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+What is regular expressions? Regular expressions is a string of characters that specifies a search pattern. It is used to create patterns that help with matching, locating and managing text. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A tutorial explaining regular expressions.
 
 ## Table of Contents
 
@@ -20,6 +20,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+
+Anchors do match any character but match a position before or after characters. 
+
+`^` - caret anchor matches the beginning of the text
+`$` - dollar anchor matches the end of the text
 
 ### Quantifiers
 
