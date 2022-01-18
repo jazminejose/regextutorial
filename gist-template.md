@@ -30,41 +30,41 @@ Anchors do match any character but match a position before or after characters.
 
 Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found.
 
-`*` - match zero or more times
-`+` - match one or more times
-`?` match zero or one time
-`{ n }` - match exactly n times
-`{ n, }` - match at least n times
-`{ n, m }` - match from n to m times
+`*` - match zero or more times<br>
+`+` - match one or more times<br>
+`?` match zero or one time<br>
+`{ n }` - match exactly n times<br>
+`{ n, }` - match at least n times<br>
+`{ n, m }` - match from n to m times<br>
 
 ### Grouping Constructs
 
 Grouping constructs create a sub-expression by placing an expression inside matching open and close parentheses. Each set of parentheses create a capture numeber that is used to identify capturing groups.
 
-`()` - capturing group. captures the information that matches the expression in parentheses
-`(?:)` - non-capturing group.
-`(?=)` - captures information that is followed by the expression if the expression is true and the input matches the pattern that follows this expression
-`(?<>)` - named capture group
+`()` - capturing group. captures the information that matches the expression in parentheses<br>
+`(?:)` - non-capturing group.<br>
+`(?=)` - captures information that is followed by the expression if the expression is true and the input matches the pattern that follows this expression<br>
+`(?<>)` - named capture group<br>
 
 ### Bracket Expressions
 
 Bracket expressions are a list of characters and/or character classes enclosed in brackets. 
 
-`[abc]` - a, b, or c
-`[a-z]` - a through z
-`[^abc]` - any character except a, b, or c
-`[[:alpha:]]` - any alphabetic character 
+`[abc]` - a, b, or c<br>
+`[a-z]` - a through z<br>
+`[^abc]` - any character except a, b, or c<br>
+`[[:alpha:]]` - any alphabetic character <br>
 
 ### Character Classes
 
 Character classes distinguish kind of characters, for example, distinguishes between letters and digits.
 
-`\d` - matches a digit 
-`\s` - matches a whitespace sumbol such a space
-`\w` - matches a word character
-`.` - matches any character
+`\d` - matches a digit <br>
+`\s` - matches a whitespace sumbol such a space<br>
+`\w` - matches a word character<br>
+`.` - matches any character<br>
 
-`\D \S \W` - inverse classes
+`\D \S \W` - inverse classes<br>
 ### The OR Operator
 
 The Alternation Operation (OR) is used to match a single regular expression out of several possible regular expressions.
@@ -73,22 +73,22 @@ The Alternation Operation (OR) is used to match a single regular expression out 
 
 ### Flags
 
-`i` - makes the search case-sensitive
-`g` - search looks for all matches, without -- only the first match is returned
+`i` - makes the search case-sensitive<br>
+`g` - search looks for all matches, without -- only the first match is returned<br>
 `m` - multiline mode
  
 ### Character Escapes
 
-`\` - used to escape a special character
-`^` - beginning of a string
-`$` - end of a string
-`.` - matches any single character
-`|` - matches previous OR next character/group
-`?` - match zero or one of the previous
-`*` - match zero, one or more of the previous
-`+` - match one or more of the previous
-`( )` - group characters
-`[ ]` - matches a range of characters
+`\` - used to escape a special character<br>
+`^` - beginning of a string<br>
+`$` - end of a string<br>
+`.` - matches any single character<br>
+`|` - matches previous OR next character/group<br>
+`?` - match zero or one of the previous<br>
+`*` - match zero, one or more of the previous<br>
+`+` - match one or more of the previous<br>
+`( )` - group characters<br>
+`[ ]` - matches a range of characters<br>
 `{ }` - matches a specified number of occurrences of the previous
 
 ## Author
