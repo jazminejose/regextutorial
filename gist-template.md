@@ -4,7 +4,8 @@ What is regular expressions? Regular expressions is a string of characters that 
 
 ## Summary
 
-A tutorial explaining regular expressions.
+A tutorial explaining regular expression:<br>
+Matching an email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 
@@ -52,6 +53,7 @@ Bracket expressions are a list of characters and/or character classes enclosed i
 
 `[abc]` - a, b, or c<br>
 `[a-z]` - a through z<br>
+`[0-9]` - 0 through 0<br>
 `[^abc]` - any character except a, b, or c<br>
 `[[:alpha:]]` - any alphabetic character <br>
 
