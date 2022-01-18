@@ -95,5 +95,7 @@ The Alternation Operation (OR) is used to match a single regular expression out 
 
 ## Author
 
+My name is Jazmine Jose and I am an aspiring web developer. Currently attending UCI Coding Bootcamp.
+
 <a href="https://www.github.com/jazminejose">GitHub Profile</a>
 
